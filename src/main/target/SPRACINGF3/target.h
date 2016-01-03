@@ -134,6 +134,10 @@
 //#define VBAT_ADC_GPIO_PIN           GPIO_Pin_4
 //#define VBAT_ADC_CHANNEL            ADC_Channel_1
 
+#define VBAT_ADC_GPIO               GPIOB
+#define VBAT_ADC_GPIO_PIN           GPIO_Pin_2
+#define VBAT_ADC_CHANNEL            ADC_Channel_12
+
 #define CURRENT_METER_ADC_GPIO      GPIOA
 #define CURRENT_METER_ADC_GPIO_PIN  GPIO_Pin_5
 #define CURRENT_METER_ADC_CHANNEL   ADC_Channel_2
